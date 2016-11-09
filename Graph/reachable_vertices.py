@@ -1,6 +1,6 @@
 def reachable_vertices(g,v,f=[]):
     s=[v]
-    if f==[]:
+    if not f:
         f=[0]*g.n
     r=[]
     while s:

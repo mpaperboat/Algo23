@@ -3,8 +3,8 @@ import re
 import sys
 
 from Algo23.Graph.AdjacencyList import *
-from Algo23.Graph.ReachableVertices import *
-from Algo23.Graph.TopologicalSort import *
+from Algo23.Graph.reachable_vertices import *
+from Algo23.Graph.topological_sort import *
 
 class decouple_module:
     def __init__(self,code):
